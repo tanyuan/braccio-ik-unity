@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+/// Arduino Tinkerkit Braccio robotic arm simulator with IK (Inverse Kinematics) for Unity
+/// Shan-Yuan Teng <tanyuan@cmlab.csie.ntu.edu.tw>
+
+using UnityEngine;
 using System.Collections;
 
 public class SolveIK : MonoBehaviour {
