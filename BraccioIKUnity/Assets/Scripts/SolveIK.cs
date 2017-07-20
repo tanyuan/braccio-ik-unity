@@ -97,12 +97,16 @@ public class SolveIK : MonoBehaviour {
 			float wrt_angle_d = end_last_angle + wrt_angle_r * Mathf.Rad2Deg;
 
 			// Update angle
-			thetaWristVertical = wrt_angle_d;
+			if (wrt_angle_d >= 0f && wrt_angle_d <= 180f)
+				thetaWristVertical = wrt_angle_d;
 		}
 
 		// Update angles
-		thetaBase = bas_angle_d;
-		thetaShoulder = shl_angle_d;
-		thetaElbow = elb_angle_d;
+		if (bas_angle_d >= 0f && bas_angle_d <=180f)
+			thetaBase = bas_angle_d;
+		if (shl_angle_d >= 15f && shl_angle_d <=165f)
+			thetaShoulder = shl_angle_d;
+		if (elb_angle_d >= 0f && elb_angle_d <=180f)
+			thetaElbow = elb_angle_d;
 	}
 }

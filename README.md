@@ -10,9 +10,9 @@ Unity project developed with Unity 5.3.4, or use `braccio_ik.unitypackage` to im
 - GameObject **IKControl**:
   - **Transform**: Move the **Position** to change robotic arm wrist IK target position.
   - **Solve IK**:
-    - Toggle **Use IK** on to control the robotic arm with IK.
-    - Toggle **Auto End** on to automatically turn the end pose horizontally.
-  - **Arduino Serial**: Send motor angles to Serial when tap Space key. Change **Port Name** before use. Default off.
+    - Toggle **Use IK** on to control the robotic arm with IK. (Theta Base, Theta Shoulder, Theta Elbow)
+    - Toggle **Auto End** on to automatically turn the end pose horizontally. (Theta Wrist Vertical)
+  - **Arduino Serial**: Send motor angles every 5 seconds (**Delay Seconds**) to Serial. Change **Port Name** before use. Default off.
   - **Gizmo**: Visualize target position.
 
 ## BraccioSerialArduino
@@ -21,7 +21,8 @@ Arduino counterpart code which receives commands from Unity. Need to have **Brac
 
 ## Author
 
-BraccioIK.unity / SolveIK.cs: Shan-Yuan Teng <tanyuan@cmlab.csie.ntu.edu.tw>
+BraccioIK.unity / SolveIK.cs: Shan-Yuan Teng <tanyuan@cmlab.csie.ntu.edu.tw>  
+BraccioSerialArduino.ino: Yung-Ta Lin
 
 ## License
 
