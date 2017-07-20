@@ -9,6 +9,8 @@ http://www.arduino.org/products/tinkerkit/arduino-tinkerkit-braccio)
 
 ## BraccioIKUnity
 
+![Unity Screenshot](screenshot.png)
+
 Unity project developed with Unity 5.3.4.
 
 - Turn on Serial settings in Unity: Menu **Edit** > **Project Settings** > **Player** > Settings for PC ... Standalone Tab **Other Settings** > **Api Compatibility Level** > Choose **.NET 2.0**
