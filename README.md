@@ -4,8 +4,9 @@ Braccio robotic arm simulator with IK (inverse kinematics) and controller via Se
 
 ## BraccioIKUnity
 
-Unity project developed with Unity 5.3.4, or use `braccio_ik.unitypackage` to import to existing projects.
+Unity project developed with Unity 5.3.4.
 
+- Turn on Serial settings in Unity: Menu **Edit** > **Project Settings** > **Player** > Settings for PC ... Standalone Tab **Other Settings** > **Api Compatibility Level** > Choose **.NET 2.0**
 - Open scene `Assets/Scenes/BraccioIK.unity`
 - GameObject **IKControl**:
   - **Transform**: Move the **Position** to change robotic arm wrist IK target position.
