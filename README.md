@@ -2,6 +2,11 @@
 
 Braccio robotic arm simulator with IK (inverse kinematics) and controller via Serial in Unity.
 
+## Hardware
+
+[Arduino Tinkerkit Braccio](
+http://www.arduino.org/products/tinkerkit/arduino-tinkerkit-braccio)
+
 ## BraccioIKUnity
 
 Unity project developed with Unity 5.3.4.
@@ -20,7 +25,7 @@ Unity project developed with Unity 5.3.4.
 
 Arduino counterpart code which receives commands from Unity. Need to have **Braccio** library installed.
 
-## Author
+## Authors
 
 BraccioIK.unity / SolveIK.cs: Shan-Yuan Teng <tanyuan@cmlab.csie.ntu.edu.tw>  
 BraccioSerialArduino.ino: Yung-Ta Lin
